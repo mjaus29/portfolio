@@ -187,10 +187,12 @@ export function Globe({ globeConfig, data }: WorldProps) {
 
     globeRef.current
       .pointsData(data)
+      .pointRadius((e) => (e as { size: number }).size * 2)
+      .pointsMerge(false)
       .pointColor((e) => (e as { color: string }).color)
-      .pointsMerge(true)
       .pointAltitude(0.0)
-      .pointRadius(2);
+      .pointRadius(2)
+      .pointsTransitionDuration(0);
 
     globeRef.current
       .ringsData([])

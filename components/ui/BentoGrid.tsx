@@ -2,7 +2,7 @@
 import { cn } from "@/utils/cn";
 import { BackgroundGradientAnimation } from "./GradientBg";
 import { GlobeDemo } from "./GridGlobe";
-import Lottie from "react-lottie";
+import Lottie from "lottie-react";
 import { useState } from "react";
 import animationData from "@/data/confetti.json";
 import MagicButton from "./MagicButton";
@@ -151,16 +151,10 @@ export const BentoGridItem = ({
                 }`}
               >
                 <Lottie
-                  options={{
-                    loop: copied,
-                    autoplay: copied,
-                    animationData,
-                    rendererSettings: {
-                      preserveAspectRatio: "xMidYMid slice",
-                    },
-                  }}
-                  height={200}
-                  width={400}
+                  animationData={animationData}
+                  loop={copied}
+                  autoplay={copied}
+                  style={{ width: 400, height: 200 }}
                 />
               </div>
 

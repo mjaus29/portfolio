@@ -7,7 +7,7 @@ import { ThemeProvider } from "./provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Mark Austria's Portfolio",
+  title: "Mark Austria",
   description: "Modern & Minimalist Portfolio",
   icons: "/favicon.png",
 };

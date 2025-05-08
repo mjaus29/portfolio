@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "About", link: "/#about" },
   { name: "Projects", link: "/#projects" },
-  { name: "Testimonials", link: "/#testimonials" },
+  { name: "Experience", link: "/#experience" },
   { name: "Contact", link: "/#contact" },
 ];
 
@@ -49,12 +49,12 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently building a Library Admin Dashboard",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
+    img: "/b5.png",
     spareImg: "/grid.svg",
   },
   {
@@ -138,29 +138,29 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Frontend Development Specialist",
+    desc: "Developed visually stunning, responsive websites with modern UI/UX principles, interactive animations, and optimized performance using React, Next.js, and Tailwind CSS.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Backend Architecture Engineer",
+    desc: "Built robust server-side applications with secure authentication, database management, and API integration using Next.js, TypeScript, and various cloud services.",
+    className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Freelance Solution Architect",
+    desc: "Delivered end-to-end solutions for clients across various industries, from concept to deployment, ensuring high-quality code and exceptional user experiences.",
+    className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "AI Integration Specialist",
+    desc: "Created AI-powered applications like employee appraisal systems, food safety inspections, and interview preparation platforms using Claude and other LLM technologies.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },

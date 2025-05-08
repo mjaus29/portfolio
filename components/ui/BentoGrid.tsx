@@ -19,7 +19,7 @@ export const BentoGrid = ({
     <div
       className={cn(
         "grid grid-cols-1 md:grid-cols-6 lg:grid-cols-5 md:grid-row-7 gap-4 lg:gap-8 mx-auto ",
-        className
+        className,
       )}
     >
       {children}
@@ -57,7 +57,7 @@ export const BentoGridItem = ({
     <div
       className={cn(
         "row-span-1 relative overflow-hidden rounded-3xl group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none justify-between flex flex-col space-y-4 border border-white/[0.1]",
-        className
+        className,
       )}
       style={{
         background: "rgb(4,7,29)",
@@ -99,7 +99,7 @@ export const BentoGridItem = ({
         <div
           className={cn(
             titleClassName,
-            "group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col px-5 p-5 lg:p-10"
+            "group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col px-5 p-5 lg:p-10",
           )}
         >
           <div className="font-sans font-extralight text-[#C1C2D3] text-sm md:text-xs lg:text-base z-10">
@@ -115,7 +115,7 @@ export const BentoGridItem = ({
           {id === 3 && (
             <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
               <div className="flex flex-col gap-3 lg:gap-8">
-                {["React.js", "Next.js", "Typescript"].map((item) => (
+                {["React", "Next.js", "TypeScript"].map((item) => (
                   <span
                     key={item}
                     className="py-2 lg:py-4 lg:px-3 px-3
@@ -130,7 +130,7 @@ export const BentoGridItem = ({
 
               <div className="flex flex-col gap-3 lg:gap-8">
                 <span className="py-4 px-3 rounded-lg text-center bg-[#10132E]" />
-                {["VueJS", "AWS", "MongoDB"].map((item) => (
+                {["GenAI", "AWS", "Tailwind CSS"].map((item) => (
                   <span
                     key={item}
                     className="py-2 lg:py-4 lg:px-3 px-3

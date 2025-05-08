@@ -50,12 +50,19 @@ const RecentProjects = () => {
                         <PinContainer title={link} href={link}>
                           <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-10">
                             <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162D]">
-                              <Image src="/bg.png" alt="bg-img" />
+                              <Image
+                                src="/bg.png"
+                                alt="bg-img"
+                                width={500}
+                                height={500}
+                              />
                             </div>
 
                             <Image
                               src={img}
                               alt={title}
+                              width={500}
+                              height={500}
                               className="z-10 absolute bottom-[-10px] w-[90%] transform rotate-[2.63deg]"
                             />
                           </div>
@@ -82,6 +89,8 @@ const RecentProjects = () => {
                                     <Image
                                       src={icon}
                                       alt={icon}
+                                      width={40}
+                                      height={40}
                                       className="p-2"
                                     />
                                   </div>

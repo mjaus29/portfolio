@@ -62,6 +62,8 @@ const ProjectCase = ({ project }: { project: string }) => {
         className="w-full max-w-[1044px] h-auto mix-blend-lighten mx-auto"
         src={image}
         alt="Project Screenshot"
+        width={1044}
+        height={600}
       />
 
       {/* Deployed Button */}
@@ -119,7 +121,13 @@ const ProjectCase = ({ project }: { project: string }) => {
                 key={icon}
                 className="group relative border border-white/[0.2] rounded-full bg-black w-16 h-16 flex justify-center items-center hover:scale-105 transition-transform"
               >
-                <Image src={icon} alt={techName} className="w-10 h-10" />
+                <Image
+                  src={icon}
+                  alt={techName}
+                  width={40}
+                  height={40}
+                  className="w-10 h-10"
+                />
                 <div className="absolute bottom-full mb-2 px-2 py-1 text-xs bg-gradient-to-r from-slate-900 to-slate-950 rounded-md outline outline-1 outline-offset-[-1px] outline-slate-500/40 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap">
                   {techName}
                 </div>

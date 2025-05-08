@@ -21,6 +21,8 @@ const Process = () => {
                 src={step.icon}
                 className="process-icon"
                 alt={step.title}
+                width={24}
+                height={24}
               />
             </div>
             <div className="process-step-title">{step.title}</div>

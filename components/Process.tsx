@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const Process = () => {
   const processSteps = [
@@ -16,15 +17,13 @@ const Process = () => {
           <div key={index} className="process-step">
             <div className="process-icon-container">
               <div className="process-icon-bg"></div>
-              <img
+              <Image
                 src={step.icon}
                 className="process-icon"
                 alt={step.title}
               />
             </div>
-            <div className="process-step-title">
-              {step.title}
-            </div>
+            <div className="process-step-title">{step.title}</div>
           </div>
         ))}
       </div>

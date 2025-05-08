@@ -12,6 +12,7 @@ import {
 } from "@/components/ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
 import Link from "next/link";
+import Image from "next/image";
 
 const chunkArray = <T,>(arr: T[], size: number): T[][] =>
   Array.from({ length: Math.ceil(arr.length / size) }, (_, i) =>
@@ -49,10 +50,10 @@ const RecentProjects = () => {
                         <PinContainer title={link} href={link}>
                           <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-10">
                             <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162D]">
-                              <img src="/bg.png" alt="bg-img" />
+                              <Image src="/bg.png" alt="bg-img" />
                             </div>
 
-                            <img
+                            <Image
                               src={img}
                               alt={title}
                               className="z-10 absolute bottom-[-10px] w-[90%] transform rotate-[2.63deg]"
@@ -78,7 +79,7 @@ const RecentProjects = () => {
                                       transform: `translateX(-${5 * index * 2}px)`,
                                     }}
                                   >
-                                    <img
+                                    <Image
                                       src={icon}
                                       alt={icon}
                                       className="p-2"

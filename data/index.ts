@@ -160,7 +160,7 @@ export const workExperience = [
   {
     id: 4,
     title: "AI Integration Specialist",
-    desc: "Created AI-powered applications like employee appraisal systems, food safety inspections, and interview preparation platforms using Claude and other LLM technologies.",
+    desc: "Specialized in developing AI-driven applications that streamline business processes and enhance decision-making capabilities.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },

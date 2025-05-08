@@ -45,7 +45,7 @@ const ProjectCase = ({ project }: { project: string }) => {
       id: "challenges",
       title: "Challenges & Solutions",
     },
-    { id: "results", title: "Results" },
+    // { id: "results", title: "Results" },
     { id: "conclusion", title: "Conclusion" },
     { id: "future", title: "Future Enhancements" },
   ];
@@ -181,25 +181,26 @@ const ProjectCase = ({ project }: { project: string }) => {
       </div>
 
       {/* Results */}
-      <div id="results" className="section">
-        <div className="case-study-label">OUTCOMES</div>
-        <div className="section-title">Result</div>
-        <div className="section-content">{outcomeSummary}</div>
+      {/*<div id="results" className="section">*/}
+      {/*  <div className="case-study-label">OUTCOMES</div>*/}
 
-        <div className="section-title mt-8">Key Metrics</div>
-        <Metrics
-          keyMetrics={{
-            lighthousePerformance,
-            accessibility,
-            bestPractices,
-            seo,
-          }}
-        />
-      </div>
+      {/*  <div className="section-title mt-8">Key Metrics</div>*/}
+      {/*  <Metrics*/}
+      {/*    keyMetrics={{*/}
+      {/*      lighthousePerformance,*/}
+      {/*      accessibility,*/}
+      {/*      bestPractices,*/}
+      {/*      seo,*/}
+      {/*    }}*/}
+      {/*  />*/}
+      {/*</div>*/}
 
       {/* Conclusion */}
       <div id="conclusion" className="section">
         <div className="case-study-label">FINAL THOUGHTS</div>
+        <div className="section-title">Result</div>
+        <div className="section-content">{outcomeSummary}</div>
+
         <div className="section-title">Conclusion</div>
         <div className="section-content">{conclusion}</div>
       </div>

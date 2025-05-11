@@ -420,7 +420,7 @@ export const ycdirectory = {
   image: "/project/ycdirectory.png",
   link: "https://ycdirectory.markaustria.com/",
   summary:
-    "Developed a startup pitch platform using Next.js 15 and React 19, allowing users to create, share, and discover startup ideas with real-time updates. The application features GitHub authentication, content management via Sanity, and implements advanced rendering strategies like Partial Pre-Rendering (PPR).",
+    "Developed a startup pitch platform using Next.js and React, allowing users to create, share, and discover startup ideas with real-time updates. The application features GitHub authentication, content management via Sanity, and implements advanced rendering strategies like Partial Pre-Rendering (PPR).",
   backgroundAndProblem:
     "Web development traditionally required extensive configuration, setup, and deployment processes that consumed significant development time. Developers needed a framework that would streamline these processes while maintaining performance and SEO benefits. Additionally, creating applications with real-time updates and proper content management often required complex architectures and multiple services.",
   missionAndObjectives: {
@@ -433,7 +433,7 @@ export const ycdirectory = {
   },
   processAndKeyHighlights: {
     overview:
-      "The development process began with setting up Next.js 15 and implementing the core architecture using React 19's server components. I implemented authentication using Next Auth with GitHub OAuth, created a content management system using Sanity, and built a responsive UI with Tailwind CSS and Shadcn components. The application was structured to leverage Next.js's file-based routing system and implemented various rendering strategies to optimize performance.",
+      "The development process began with setting up Next.js and implementing the core architecture using React's server components. I implemented authentication using Next Auth with GitHub OAuth, created a content management system using Sanity, and built a responsive UI with Tailwind CSS and Shadcn components. The application was structured to leverage Next.js's file-based routing system and implemented various rendering strategies to optimize performance.",
     keyHighlights: [
       {
         title: "Partial Pre-Rendering Implementation",

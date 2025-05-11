@@ -5,7 +5,7 @@ export const storeit = {
   image: "/project/storeit.png",
   link: "https://storeit.markaustria.com/",
   summary:
-    "Developed a full-featured cloud storage application inspired by Google Drive and Dropbox using Next.js 15. The application features secure passwordless authentication, file management capabilities, and a responsive UI that works across all devices.",
+    "Developed a full-featured cloud storage application inspired by Google Drive and Dropbox using Next.js. The application features secure passwordless authentication, file management capabilities, and a responsive UI that works across all devices.",
   backgroundAndProblem:
     "In today's job market, developers need to demonstrate their ability to build production-ready applications that solve real problems. Rather than creating yet another social media clone, this project addresses the universal need for secure, accessible file storage and management. The challenge was to build a comprehensive storage solution with modern technologies while implementing professional-grade features like authentication, file operations, and responsive design.",
   missionAndObjectives: {
@@ -267,12 +267,12 @@ export const prepwise = {
   },
   processAndKeyHighlights: {
     overview:
-      "The development process began with setting up the project structure using Next.js and implementing authentication with Firebase. We then created the UI components for the homepage and interview cards. The core functionality was built around VY's voice API for realistic conversations and Google's Gemini AI for generating interview questions and feedback. We implemented server actions for secure data handling and deployed the application on Vercel.",
+      "The development process began with setting up the project structure using Next.js and implementing authentication with Firebase. We then created the UI components for the homepage and interview cards. The core functionality was built around Vapi's voice API for realistic conversations and Google's Gemini AI for generating interview questions and feedback. We implemented server actions for secure data handling and deployed the application on Vercel.",
     keyHighlights: [
       {
         title: "Voice-Powered AI Interviews",
         description:
-          "Integrated VY's voice API to create a realistic interview experience with natural-sounding speech, back-channeling, and real-time transcription, allowing users to practice speaking their answers as they would in a real interview.",
+          "Integrated Vapi's voice API to create a realistic interview experience with natural-sounding speech, back-channeling, and real-time transcription, allowing users to practice speaking their answers as they would in a real interview.",
       },
       {
         title: "Custom Interview Generation",
@@ -308,7 +308,7 @@ export const prepwise = {
       challenge:
         "Designing a workflow that could collect user preferences through natural conversation and generate relevant interview questions",
       solution:
-        "Created a custom workflow in VY that guides users through a series of questions about their target role and technologies, then makes an API call to our backend where Gemini AI generates appropriate interview questions based on the collected data.",
+        "Created a custom workflow in Vapi that guides users through a series of questions about their target role and technologies, then makes an API call to our backend where Gemini AI generates appropriate interview questions based on the collected data.",
     },
   ],
   resultAndKeyAchievements: {
@@ -338,7 +338,7 @@ export const yoom = {
   image: "/project/yoom.png",
   link: "https://yoom.markaustria.com/",
   summary:
-    "I developed a feature-rich Zoom clone that supports video conferencing with multiple participants, screen sharing, meeting scheduling, and recording capabilities. The application was built using Next.js 14, TypeScript, and Stream's video SDK, allowing for rapid development of a complex video solution.",
+    "Developed a feature-rich Zoom clone that supports video conferencing with multiple participants, screen sharing, meeting scheduling, and recording capabilities. The application was built using Next.js, TypeScript, and Stream's video SDK, allowing for rapid development of a complex video solution.",
   backgroundAndProblem:
     "Video calling integration is typically perceived as complex and time-consuming, often requiring weeks or months of development. Many developers avoid implementing video features due to the technical challenges of building scalable, real-time communication systems. The project aimed to demonstrate how third-party tools like Stream can dramatically reduce development time while still delivering enterprise-grade functionality.",
   missionAndObjectives: {
@@ -351,7 +351,7 @@ export const yoom = {
   },
   processAndKeyHighlights: {
     overview:
-      "The development process began with setting up Next.js 14 with TypeScript and Tailwind CSS. I implemented authentication using Clerk, created a responsive UI with mobile-friendly navigation, and integrated Stream's video SDK for all video conferencing features. The application was structured with route groups and dynamic routes to handle different meeting scenarios, and I used custom hooks to manage video calls and user states.",
+      "The development process began with setting up Next.js with TypeScript and Tailwind CSS. Authentication was implemented using Clerk, created a responsive UI with mobile-friendly navigation, and integrated Stream's video SDK for all video conferencing features. The application was structured with route groups and dynamic routes to handle different meeting scenarios, and used custom hooks to manage video calls and user states.",
     keyHighlights: [
       {
         title: "Seamless Authentication with Clerk",
@@ -361,7 +361,7 @@ export const yoom = {
       {
         title: "Real-time Video Conferencing with Stream",
         description:
-          "Integrated Stream's video SDK to enable high-quality video calls with features like screen sharing, emoji reactions, device selection, and support for thousands of participants without having to build complex WebRTC infrastructure.",
+          "Integrated Stream's video SDK to enable high-quality video calls with features like screen sharing, emoji reactions, device selection, and support for thousands of participants without having to build complex infrastructure.",
       },
       {
         title: "Meeting Management System",
@@ -381,7 +381,7 @@ export const yoom = {
   challengesAndSolutions: [
     {
       challenge:
-        "Managing client and server components in Next.js 14 while integrating third-party libraries that require client-side functionality.",
+        "Managing client and server components in Next.js while integrating third-party libraries that require client-side functionality.",
       solution:
         "Created a strategic component structure that kept pages server-rendered when possible and only converted components to client components when necessary for interactivity, using custom hooks to bridge the gap between server and client state.",
     },

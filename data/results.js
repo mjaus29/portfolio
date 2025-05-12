@@ -18,7 +18,7 @@ export const storeit = {
   },
   processAndKeyHighlights: {
     overview:
-      "The development process began with setting up a Next.js 15 project and establishing a design system with Tailwind CSS. I implemented authentication using Appwrite's backend services, created reusable components for the UI, and built server actions for handling file operations. The application was structured with dynamic routing to handle different file types and implemented global search functionality with debouncing for optimal performance.",
+      "The development process began with setting up a Next.js project and establishing a design system with Tailwind CSS. Authentication was implemented  using Appwrite's backend services, created reusable components for the UI, and built server actions for handling file operations. The application was structured with dynamic routing to handle different file types and implemented global search functionality with debouncing for optimal performance.",
     keyHighlights: [
       {
         title: "Passwordless OTP Authentication",
@@ -433,7 +433,7 @@ export const ycdirectory = {
   },
   processAndKeyHighlights: {
     overview:
-      "The development process began with setting up Next.js and implementing the core architecture using React's server components. I implemented authentication using Next Auth with GitHub OAuth, created a content management system using Sanity, and built a responsive UI with Tailwind CSS and Shadcn components. The application was structured to leverage Next.js's file-based routing system and implemented various rendering strategies to optimize performance.",
+      "The development process began with setting up Next.js and implementing the core architecture using React's server components. Authentication was implemented using NextAuth with GitHub OAuth, created a content management system using Sanity, and built a responsive UI with Tailwind CSS and Shadcn components. The application was structured to leverage Next.js's file-based routing system and implemented various rendering strategies to optimize performance.",
     keyHighlights: [
       {
         title: "Partial Pre-Rendering Implementation",
@@ -446,9 +446,9 @@ export const ycdirectory = {
           "Integrated Sanity's live content API to deliver real-time updates without page refreshes. When users submit new startups, they appear instantly on the homepage for all users, creating a dynamic and engaging experience.",
       },
       {
-        title: "Advanced Form Handling with React 19",
+        title: "Advanced Form Handling with React",
         description:
-          "Leveraged React 19's new useActionState hook and Next.js server actions to create a robust form submission system with built-in validation using Zod. This simplified state management and provided a seamless user experience with proper error handling and feedback.",
+          "Leveraged React's new useActionState hook and Next.js server actions to create a robust form submission system with built-in validation using Zod. This simplified state management and provided a seamless user experience with proper error handling and feedback.",
       },
     ],
   },
@@ -466,9 +466,9 @@ export const ycdirectory = {
   challengesAndSolutions: [
     {
       challenge:
-        "Authentication and user persistence between Next Auth and Sanity",
+        "Authentication and user persistence between NextAuth and Sanity",
       solution:
-        "Implemented custom callbacks in the Next Auth configuration to create or fetch Sanity author documents upon successful GitHub authentication. Added JWT token modification to store the Sanity author ID, enabling seamless integration between the authentication system and content management.",
+        "Implemented custom callbacks in the NextAuth configuration to create or fetch Sanity author documents upon successful GitHub authentication. Added JWT token modification to store the Sanity author ID, enabling seamless integration between the authentication system and content management.",
     },
     {
       challenge: "Caching issues when fetching newly created content",
@@ -487,7 +487,7 @@ export const ycdirectory = {
     },
   },
   conclusion:
-    "The YC Directory project demonstrates how Next.js 15 and React 19 can be leveraged to create high-performance, SEO-friendly applications with real-time capabilities. By implementing features like PPR, server components, and integrating with services like Sanity and Next Auth, the application achieves an optimal balance between performance, developer experience, and user experience. The project serves as an excellent example of modern web development practices and the power of the Next.js framework.",
+    "The YC Directory project demonstrates how Next.js and React can be leveraged to create high-performance, SEO-friendly applications with real-time capabilities. By implementing features like PPR, server components, and integrating with services like Sanity and NextAuth, the application achieves an optimal balance between performance, developer experience, and user experience. The project serves as an excellent example of modern web development practices and the power of the Next.js framework.",
   futureEnhancements: [
     "Implement form field persistence when validation fails to improve user experience",
     "Add commenting and voting functionality for startup pitches",
@@ -669,12 +669,12 @@ export const apple = {
   image: "/project/apple.png",
   link: "https://apple.markaustria.com/",
   summary:
-    "Created a visually stunning, interactive clone of Apple's iPhone 15 Pro website using React, GSAP animations, and Three.js for 3D modeling. The project features custom animations, a video carousel with progress tracking, an interactive 3D iPhone model with color customization, and performance monitoring with Sentry.",
+    "Created a visually stunning, interactive clone of Apple's iPhone Pro website using React, GSAP animations, and Three.js for 3D modeling. The project features custom animations, a video carousel with progress tracking, an interactive 3D iPhone model with color customization, and performance monitoring with Sentry.",
   backgroundAndProblem:
     "Apple's product websites are known for their sleek design and engaging animations that showcase products in an immersive way. The challenge was to recreate this premium experience while learning advanced animation and 3D development techniques. The project aimed to demonstrate how modern web technologies can create compelling product showcases that engage users and drive conversions.",
   missionAndObjectives: {
     mission:
-      "To build an iPhone 15 Pro clone website that replicates Apple's premium user experience through advanced animations and 3D interactions.",
+      "To build an iPhone Pro clone website that replicates Apple's premium user experience through advanced animations and 3D interactions.",
     mainChallenge:
       "Implementing complex animations synchronized with scroll events and creating an interactive 3D model that allows users to view the iPhone from different angles and in different colors.",
     objectives:
@@ -682,7 +682,7 @@ export const apple = {
   },
   processAndKeyHighlights: {
     overview:
-      "The development process began with setting up a React application using Vite and Tailwind CSS. I first created a comprehensive GSAP animation workshop to understand core animation concepts, then implemented the 3D model using Three.js and React Three Fiber. The project was structured into components including a navbar, hero section with animated text and video, highlights section with a custom video carousel, 3D model section with interactive controls, features section showcasing materials, and a section highlighting the A17 Pro chip.",
+      "The development process began with setting up a React application using Vite and Tailwind CSS. Attended a comprehensive GSAP animation workshop to understand core animation concepts, then implemented the 3D model using Three.js and React Three Fiber. The project was structured into components including a navbar, hero section with animated text and video, highlights section with a custom video carousel, 3D model section with interactive controls, features section showcasing materials, and a section highlighting the A17 Pro chip.",
     keyHighlights: [
       {
         title: "Custom Video Carousel with Progress Tracking",
@@ -725,7 +725,7 @@ export const apple = {
   ],
   resultAndKeyAchievements: {
     outcomeSummary:
-      "Successfully created a visually stunning, interactive clone of Apple's iPhone 15 Pro website that showcases advanced animation techniques and 3D modeling. The website is fully responsive, performs well across devices, and includes comprehensive performance monitoring with Sentry.",
+      "Successfully created a visually stunning, interactive clone of Apple's iPhone Pro website that showcases advanced animation techniques and 3D modeling. The website is fully responsive, performs well across devices, and includes comprehensive performance monitoring with Sentry.",
     keyMetrics: {
       lighthousePerformance: "100",
       accessibility: "High",
@@ -734,7 +734,7 @@ export const apple = {
     },
   },
   conclusion:
-    "This project demonstrates how modern web technologies like GSAP and Three.js can be used to create immersive product showcases that rival those of major tech companies. By combining animations with 3D modeling, I was able to create an engaging user experience that effectively showcases the iPhone 15 Pro's features and design. The implementation of Sentry for performance monitoring adds a professional touch, allowing for continuous improvement based on real user data.",
+    "This project demonstrates how modern web technologies like GSAP and Three.js can be used to create immersive product showcases that rival those of major tech companies. By combining animations with 3D modeling, I was able to create an engaging user experience that effectively showcases the iPhone Pro's features and design. The implementation of Sentry for performance monitoring adds a professional touch, allowing for continuous improvement based on real user data.",
   futureEnhancements: [
     "Add a hamburger menu for mobile navigation",
     "Implement more detailed product specifications section",
@@ -763,7 +763,7 @@ export const awwwards = {
   },
   processAndKeyHighlights: {
     overview:
-      "The development process began with setting up a React application using Vite and configuring Tailwind CSS. I implemented custom fonts and colors to match the design aesthetic, then built each section incrementally, starting with the hero section featuring video transitions. I created reusable components for buttons, animated titles, and interactive elements to ensure consistency throughout the site. Each section was developed with mobile-first principles and tested across different screen sizes.",
+      "The development process began with setting up a React application using Vite and configuring Tailwind CSS. Custom fonts and colors were implemented to match the design aesthetic, then built each section incrementally, starting with the hero section featuring video transitions. Created reusable components for buttons, animated titles, and interactive elements to ensure consistency throughout the site. Each section was developed with mobile-first principles and tested across different screen sizes.",
     keyHighlights: [
       {
         title: "Immersive Video Hero Section",
@@ -837,7 +837,7 @@ export const portfolio = {
   },
   processAndKeyHighlights: {
     overview:
-      "The development process began with setting up a Next.js project with TypeScript and Tailwind CSS. I created a custom design with a modern hero section featuring animated spotlights and text generation effects. The project was structured with reusable components, with special attention to responsive design for all screen sizes. I implemented various interactive elements like a 3D globe, animated cards, and a floating navigation bar. Finally, I integrated Sentry for performance monitoring and deployed the site to a custom domain using Hostinger.",
+      "The development process began with setting up a Next.js project with TypeScript and Tailwind CSS. A custom design was created with a modern hero section featuring animated spotlights and text generation effects. The project was structured with reusable components, with special attention to responsive design for all screen sizes. Various interactive elements were implemented like a 3D globe, animated cards, and a floating navigation bar. Finally, integrated Sentry for performance monitoring and deployed the site to a custom domain using Vercel.",
     keyHighlights: [
       {
         title: "Interactive Bento Grid Layout",
@@ -920,7 +920,7 @@ export const brainwave = {
   },
   processAndKeyHighlights: {
     overview:
-      "The development process began with setting up a React project using Vite and configuring Tailwind CSS. I established a structured file system with reusable components and implemented custom styling through Tailwind configuration. The development followed a component-based approach, building each section individually while ensuring responsiveness across all device sizes.",
+      "The development process began with setting up a React project using Vite and configuring Tailwind CSS. A structured file system with reusable components was established and implemented custom styling through Tailwind configuration. The development followed a component-based approach, building each section individually while ensuring responsiveness across all device sizes.",
     keyHighlights: [
       {
         title: "Custom Animation System",
@@ -1142,7 +1142,7 @@ export const nike = {
   },
   processAndKeyHighlights: {
     overview:
-      "The development process began with setting up a Tailwind CSS environment using Vite and React. I first created a comprehensive crash course on Tailwind fundamentals, explaining the utility-first approach, JIT compiler, responsive design techniques, and custom configuration. Then, I built the Nike landing page section by section, implementing components like navigation, hero section, product cards, and more while ensuring mobile responsiveness throughout.",
+      "The development process began with setting up a Tailwind CSS environment using Vite and React. Attended a comprehensive crash course on Tailwind fundamentals, explaining the utility-first approach, JIT compiler, responsive design techniques, and custom configuration. Then, the Nike landing page was built by section, implementing components like navigation, hero section, product cards, and more while ensuring mobile responsiveness throughout.",
     keyHighlights: [
       {
         title: "Component-Based Architecture",

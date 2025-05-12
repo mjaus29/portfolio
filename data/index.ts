@@ -416,7 +416,7 @@ export const projects = [
   },
   {
     id: 17,
-    title: "AI-Powered Food Safety Inspection System",
+    title: "AI-Powered Food Safety Inspection Monitoring System",
     des: "A Next.js web application that streamlines food safety inspections by leveraging AI to analyze inspection images, identify compliance issues, and generate comprehensive reports with corrective actions.",
     img: "/inspector.png",
     iconLists: [
@@ -432,7 +432,7 @@ export const projects = [
   },
   {
     id: 18,
-    title: "Gen AI Appraisal: Employee Performance Evaluation",
+    title: "AI-Powered Employee Performance Evaluation System",
     des: "Gen AI Appraisal is a cloud-native application that transforms traditional employee performance reviews using AI-powered feedback generation. Built on Next.js and AWS, it streamlines the appraisal process with dynamic forms.",
     img: "/appraisal.webp",
     iconLists: [

@@ -682,7 +682,7 @@ export const apple = {
   },
   processAndKeyHighlights: {
     overview:
-      "The development process began with setting up a React application using Vite and Tailwind CSS. Attended a comprehensive GSAP animation workshop to understand core animation concepts, then implemented the 3D model using Three.js and React Three Fiber. The project was structured into components including a navbar, hero section with animated text and video, highlights section with a custom video carousel, 3D model section with interactive controls, features section showcasing materials, and a section highlighting the A17 Pro chip.",
+      "The development process began with setting up a React application using Vite and Tailwind CSS. Completed a comprehensive GSAP animation workshop to understand core animation concepts, then implemented the 3D model using Three.js and React Three Fiber. The project was structured into components including a navbar, hero section with animated text and video, highlights section with a custom video carousel, 3D model section with interactive controls, features section showcasing materials, and a section highlighting the A17 Pro chip.",
     keyHighlights: [
       {
         title: "Custom Video Carousel with Progress Tracking",
@@ -739,7 +739,7 @@ export const apple = {
     "Add a hamburger menu for mobile navigation",
     "Implement more detailed product specifications section",
     "Create additional 3D models for other Apple products",
-    "Add e-commerce functionality to allow direct purchases",
+    "Add digital storefront for product information",
   ],
 };
 
@@ -750,7 +750,7 @@ export const awwwards = {
   image: "/project/awwwards.png",
   link: "https://awwwards.markaustria.com/",
   summary:
-    "I developed a high-performance, visually stunning gaming website inspired by Zentry.com, featuring immersive animations, interactive elements, and responsive design. The project showcases advanced frontend techniques while maintaining excellent performance across all devices.",
+    "Developed a high-performance, visually stunning gaming website inspired by Zentry.com, featuring immersive animations, interactive elements, and responsive design. The project showcases advanced frontend techniques while maintaining excellent performance across all devices. All images and content are credited to Zentry.com - this is for demo purposes only.",
   backgroundAndProblem:
     "Many developers believe that visually impressive, award-winning websites require large teams and complex implementations. This project aimed to disprove that myth by creating a website with the same level of polish and interactivity as those winning design awards, but built by a single developer. The challenge was to recreate the immersive experience of Zentry.com, a metagame platform with unique animations and interactions, while ensuring performance and responsiveness weren't compromised.",
   missionAndObjectives: {
@@ -773,7 +773,7 @@ export const awwwards = {
       {
         title: "Interactive 3D Tilt Effects",
         description:
-          "Developed custom 3D tilt effects for cards and images using vanilla JavaScript and GSAP, creating an interactive experience where elements respond to cursor movement without relying on external libraries.",
+          "Developed custom 3D tilt effects for cards and images using JavaScript and GSAP, creating an interactive experience where elements respond to cursor movement without relying on external libraries.",
       },
       {
         title: "Scroll-Triggered Animations",
@@ -808,7 +808,7 @@ export const awwwards = {
     },
   },
   conclusion:
-    "This project proves that with the right approach and modern web technologies, a single developer can create websites that rival those built by large agencies. By leveraging React, Tailwind CSS, and GSAP, I was able to implement complex animations and interactions while maintaining excellent performance. The modular component structure ensures the codebase remains maintainable and extensible for future enhancements.",
+    "This project proves that with the right approach and modern web technologies, a single developer can create websites that rival those built by large agencies. By leveraging React, Tailwind CSS, and GSAP, I was able to implement complex animations and interactions while maintaining excellent performance. The modular component structure ensures the codebase remains maintainable and extensible for future enhancements. ",
   futureEnhancements: [
     "Add more interactive game demos embedded within the Bento grid cards",
     "Implement user authentication to save preferences and progress",
@@ -826,14 +826,14 @@ export const portfolio = {
   summary:
     "Created a minimalist yet modern developer portfolio website using Next.js, featuring animated components, a responsive design, and performance optimization. The project showcases technical skills while providing an engaging user experience through interactive elements and sleek animations.",
   backgroundAndProblem:
-    "The client needed a portfolio website that would stand out from typical developer portfolios while effectively showcasing their skills and projects. Traditional portfolios often lack visual appeal and fail to demonstrate the developer's capabilities beyond static displays of work. The challenge was to create something eye-catching and interactive that would leave a lasting impression on potential employers and clients while maintaining excellent performance and accessibility.",
+    "With the increasing competition in the tech industry, developers need portfolios that stand out from typical developer portfolios while effectively showcasing their skills and projects. Traditional portfolios often lack visual appeal and fail to demonstrate the developer's capabilities beyond static displays of work. The challenge was to create something eye-catching and interactive that would leave a lasting impression on potential employers and clients while maintaining excellent performance and accessibility.",
   missionAndObjectives: {
     mission:
       "The mission of the Modern Portfolio project was to create a visually striking, highly interactive developer portfolio that would effectively showcase skills and projects while providing an exceptional user experience.",
     mainChallenge:
-      "balancing sophisticated animations and interactive elements with optimal performance and accessibility across all devices",
+      "Balancing sophisticated animations and interactive elements with optimal performance and accessibility across all devices.",
     objectives:
-      "to build a responsive, animated portfolio with modern UI components, implement performance monitoring, and deploy it to a custom domain with proper SEO optimization",
+      "To build a responsive, animated portfolio with modern UI components, implement performance monitoring, and deploy it to a custom domain with proper SEO optimization.",
   },
   processAndKeyHighlights: {
     overview:
@@ -909,7 +909,7 @@ export const brainwave = {
   summary:
     "Developed a visually stunning, responsive landing page for an AI application called Brainwave, featuring smooth animations, parallax effects, and modern design patterns like Bento Box layouts. The project showcases advanced front-end development techniques that elevate it beyond what AI tools can generate.",
   backgroundAndProblem:
-    "In an era where AI tools can quickly generate basic websites, developers need to demonstrate skills that go beyond what automation can produce. The client needed a modern, eye-catching landing page for their AI application that would stand out from competitors' outdated designs. The website needed to showcase the application's features while providing a premium user experience through animations, responsive design, and visual appeal.",
+    "In an era where AI tools can quickly generate basic websites, developers need to demonstrate skills that go beyond what automation can produce. The goal was to create a modern, eye-catching landing page for an AI application that would stand out from competitors' outdated designs. The website needed to showcase the application's features while providing a premium user experience through animations, responsive design, and visual appeal.",
   missionAndObjectives: {
     mission:
       "The mission of the Brainwave project was to create a visually distinctive landing page that demonstrates advanced front-end development skills beyond what AI tools can generate.",
@@ -981,7 +981,7 @@ export const movieland = {
   image: "/project/movieland.png",
   link: "https://movieland.markaustria.com/",
   summary:
-    "A responsive React application that allows users to search for movies using the TMDB API while implementing an AI-powered trending feature that tracks user search patterns to display the most popular searches in real-time.",
+    "A responsive React application that allows users to search for movies using the TMDB API while implementing a real-time trending feature that tracks user search patterns to display the most popular searches dynamically.",
   backgroundAndProblem:
     "Many movie discovery platforms lack personalized trending features based on actual user behavior. Traditional movie apps typically display trending content based on pre-determined metrics rather than real user activity within the application itself. This project aimed to solve this problem by creating a responsive movie search application that not only fetches data from an external API but also tracks and analyzes user search patterns to generate a dynamic trending section.",
   missionAndObjectives: {
@@ -994,7 +994,7 @@ export const movieland = {
   },
   processAndKeyHighlights: {
     overview:
-      "The development process began with setting up a React project using Vite for improved performance. Tailwind CSS v4.0 was implemented for styling. The core functionality was built around the TMDB API for movie data, while Appwrite was integrated as a backend service to track and analyze user search patterns. The application was structured with reusable components, implemented state management for search functionality, and optimized API calls using debouncing techniques.",
+      "The development process began with setting up a React project using Vite for improved performance. Tailwind CSS was implemented for styling. The core functionality was built around the TMDB API for movie data, while Appwrite was integrated as a backend service to track and analyze user search patterns. The application was structured with reusable components, implemented state management for search functionality, and optimized API calls using debouncing techniques.",
     keyHighlights: [
       {
         title: "Trending Algorithm",
@@ -1030,7 +1030,7 @@ export const movieland = {
   ],
   resultAndKeyAchievements: {
     outcomeSummary:
-      "Successfully delivered a fully functional, responsive movie discovery application with search capabilities and an innovative trending feature that provides users with real-time insights into popular searches. The application was deployed to production using Hostinger with a custom domain, making it accessible to users worldwide.",
+      "Successfully delivered a fully functional, responsive movie discovery application with search capabilities and an innovative trending feature that provides users with real-time insights into popular searches. The application was deployed to production using Vercel with a custom domain, making it accessible to users worldwide.",
     keyMetrics: {
       lighthousePerformance: "95+",
       accessibility: "98",
@@ -1068,7 +1068,7 @@ export const xora = {
   },
   processAndKeyHighlights: {
     overview:
-      "The development process began with setting up a React project using Vite and configuring Tailwind CSS for styling. The project was structured into reusable components and sections, with data separated from presentation logic. Each section was built incrementally, starting with the header and navigation, followed by the hero section, features, pricing, FAQ, testimonials, and download sections. The project concluded with deployment to Hostinger's servers.",
+      "The development process began with setting up a React project using Vite and configuring Tailwind CSS for styling. The project was structured into reusable components and sections, with data separated from presentation logic. Each section was built incrementally, starting with the header and navigation, followed by the hero section, features, pricing, FAQ, testimonials, and download sections.",
     keyHighlights: [
       {
         title: "Interactive Navigation System",
@@ -1142,7 +1142,7 @@ export const nike = {
   },
   processAndKeyHighlights: {
     overview:
-      "The development process began with setting up a Tailwind CSS environment using Vite and React. Attended a comprehensive crash course on Tailwind fundamentals, explaining the utility-first approach, JIT compiler, responsive design techniques, and custom configuration. Then, the Nike landing page was built by section, implementing components like navigation, hero section, product cards, and more while ensuring mobile responsiveness throughout.",
+      "The development process began with setting up a Tailwind CSS environment using Vite and React. Completed a comprehensive crash course on Tailwind fundamentals, explaining the utility-first approach, JIT compiler, responsive design techniques, and custom configuration. Then, the Nike landing page was built by section, implementing components like navigation, hero section, product cards, and more while ensuring mobile responsiveness throughout.",
     keyHighlights: [
       {
         title: "Component-Based Architecture",
@@ -1203,12 +1203,12 @@ export const gpt = {
   image: "/project/gpt.png",
   link: "https://gpt.markaustria.com/",
   summary:
-    "Transformed a professional Figma design into a fully responsive React.js website with modern UI/UX principles. The project involved creating a landing page for GPT-3 with multiple sections, component reusability, and mobile responsiveness, all deployed on Hostinger's servers with a custom domain.",
+    "Transformed a professional Figma design into a fully responsive React.js website with modern UI/UX principles. The project involved creating a landing page for GPT with multiple sections, component reusability, and mobile responsiveness, all deployed with a custom domain.",
   backgroundAndProblem:
     "Many tutorials teach basic website development with simple navigation bars and footers, but fail to demonstrate how to transform professional designs into fully functional websites. This project aimed to bridge the gap between design and implementation by showing how to convert a complex Figma design by AR Shakir into a responsive, production-ready website with modern UI/UX principles.",
   missionAndObjectives: {
     mission:
-      "To build and deploy a fully responsive GPT-3 landing page with modern UI/UX in React.js based on a professional Figma design.",
+      "To build and deploy a fully responsive GPT landing page with modern UI/UX in React.js based on a professional Figma design.",
     mainChallenge:
       "Converting a complex design with custom gradients, responsive layouts, and reusable components into a functional website that maintains visual fidelity across all device sizes.",
     objectives:
@@ -1252,7 +1252,7 @@ export const gpt = {
   ],
   resultAndKeyAchievements: {
     outcomeSummary:
-      "Successfully delivered a fully responsive, visually appealing GPT-3 landing page that closely matched the original Figma design. The website features reusable components, modern UI/UX principles, and works seamlessly across all device sizes. The project was deployed to Hostinger with SSL certification and a custom domain.",
+      "Successfully delivered a fully responsive, visually appealing GPT landing page that closely matched the original Figma design. The website features reusable components, modern UI/UX principles, and works seamlessly across all device sizes. The project was deployed to Vercel with SSL certification and a custom domain.",
     keyMetrics: {
       lighthousePerformance: "90+",
       accessibility: "95+",
@@ -1273,7 +1273,7 @@ export const gpt = {
 export const inspector = {
   title: "AI-Powered Food Safety Inspection Monitoring System",
   caption: "Next.js Application for Streamlined Food Safety",
-  highlight: "AI-Powered Inspection System",
+  highlight: "AI-Powered Inspection Monitoring System",
   image: "/project/inspector.png",
   summary:
     "A Next.js web application that streamlines food safety inspections by leveraging AI to analyze inspection images, identify compliance issues, and generate comprehensive reports with corrective actions. The system enhances efficiency and accuracy in food safety monitoring.",
@@ -1289,12 +1289,12 @@ export const inspector = {
   },
   processAndKeyHighlights: {
     overview:
-      "The development process involved creating a responsive Next.js application with React components, integrating AWS services for storage and AI processing, and implementing Claude 3.7 Sonnet for image analysis and report generation. The application was designed with a focus on usability for inspectors in the field, with features for capturing, uploading, and analyzing images across different food safety categories.",
+      "The development process involved creating a responsive Next.js application with React components, integrating AWS services for storage and AI processing, and implementing Claude Sonnet for image analysis and report generation. The application was designed with a focus on usability for inspectors in the field, with features for capturing, uploading, and analyzing images across different food safety categories.",
     keyHighlights: [
       {
         title: "AI-Powered Image Analysis",
         description:
-          "The system uses Claude 3.7 Sonnet to analyze inspection images across six categories: personal hygiene, food storage, food preparation, delivery, waste disposal, and training. The AI identifies compliance issues with high precision and provides detailed explanations for non-compliant items.",
+          "The system uses Claude Sonnet to analyze inspection images across six categories: personal hygiene, food storage, food preparation, delivery, waste disposal, and training. The AI identifies compliance issues with high precision and provides detailed explanations for non-compliant items.",
       },
       {
         title: "Automated Report Generation",
@@ -1356,25 +1356,25 @@ export const appraisal = {
   highlight: "AI-Powered Performance Evaluation System",
   image: "/project/appraisal.png",
   summary:
-    "Gen AI Appraisal is a cloud-native application that transforms traditional employee performance reviews using AI-powered feedback generation. Built on Next.js and AWS, it streamlines the appraisal process with dynamic forms, role-based access control, and intelligent feedback synthesis.",
+    "The Performance Evaluation System is a cloud-native application that transforms traditional employee performance reviews using AI-powered feedback generation. Built on Next.js and AWS, it streamlines the appraisal process with dynamic forms, role-based access control, and intelligent feedback synthesis.",
   backgroundAndProblem:
-    "Traditional performance appraisal systems often suffer from inconsistency, bias, and inefficiency. Organizations struggle with time-consuming manual processes, subjective evaluations, and difficulty in providing constructive, actionable feedback. Gen AI Appraisal was developed to address these challenges by leveraging AI to standardize and enhance the quality of performance feedback while streamlining the entire appraisal workflow.",
+    "Traditional performance appraisal systems often suffer from inconsistency, bias, and inefficiency. Organizations struggle with time-consuming manual processes, subjective evaluations, and difficulty in providing constructive, actionable feedback. The Performance Evaluation System was developed to address these challenges by leveraging AI to standardize and enhance the quality of performance feedback while streamlining the entire appraisal workflow.",
   missionAndObjectives: {
     mission:
-      "The mission of the Gen AI Appraisal project was to create a comprehensive, AI-powered performance evaluation system that improves feedback quality, reduces bias, and increases efficiency in the appraisal process.",
+      "The mission of the Performance Evaluation System project was to create a comprehensive, AI-powered performance evaluation system that improves feedback quality, reduces bias, and increases efficiency in the appraisal process.",
     mainChallenge:
-      "integrating AI capabilities seamlessly with human input while ensuring the system remained flexible enough to accommodate various organizational structures and evaluation methodologies",
+      "Integrating AI capabilities seamlessly with human input while ensuring the system remained flexible enough to accommodate various organizational structures and evaluation methodologies.",
     objectives:
-      "to develop a secure, scalable platform with role-based access control, dynamic form generation, AI-powered feedback synthesis, and comprehensive reporting capabilities",
+      "To develop a secure, scalable platform with role-based access control, dynamic form generation, AI-powered feedback synthesis, and comprehensive reporting capabilities.",
   },
   processAndKeyHighlights: {
     overview:
-      "The development process began with designing a flexible data model using Prisma ORM and PostgreSQL to support complex organizational relationships and dynamic forms. Next, a secure authentication system was implemented using NextAuth.js with role-based access control. The frontend was built using Next.js and Tailwind CSS, with NextUI components for a responsive, accessible interface. Finally, AI capabilities were integrated using AWS Bedrock with Claude 3.5 Sonnet to generate personalized, constructive feedback based on performance data.",
+      "The development process began with designing a flexible data model using Prisma and PostgreSQL to support complex organizational relationships and dynamic forms. Next, a secure authentication system was implemented using NextAuth with role-based access control. The frontend was built using Next.js and Tailwind CSS, with NextUI components for a responsive, accessible interface. Finally, AI capabilities were integrated using AWS Bedrock with Claude Sonnet to generate personalized, constructive feedback based on performance data.",
     keyHighlights: [
       {
         title: "AI-Powered Feedback Generation",
         description:
-          "The system leverages AWS Bedrock with Claude 3.5 Sonnet to analyze performance data, competency evaluations, and other inputs to generate personalized, constructive feedback. The AI considers project details, strengths, weaknesses, and improvement areas to provide comprehensive, balanced assessments that help employees understand their performance and growth opportunities.",
+          "The system leverages AWS Bedrock with Claude Sonnet to analyze performance data, competency evaluations, and other inputs to generate personalized, constructive feedback. The AI considers project details, strengths, weaknesses, and improvement areas to provide comprehensive, balanced assessments that help employees understand their performance and growth opportunities.",
       },
       {
         title: "Dynamic Form Builder",
@@ -1418,7 +1418,7 @@ export const appraisal = {
   ],
   resultAndKeyAchievements: {
     outcomeSummary:
-      "Gen AI Appraisal successfully delivers a comprehensive performance evaluation platform that significantly reduces the time and effort required for appraisals while improving feedback quality and consistency. The AI-powered feedback generation has been particularly well-received, providing managers with high-quality starting points for performance discussions that can be refined rather than created from scratch.",
+      "The Performance Evaluation System successfully delivers a comprehensive performance evaluation platform that significantly reduces the time and effort required for appraisals while improving feedback quality and consistency. The AI-powered feedback generation has been particularly well-received, providing managers with high-quality starting points for performance discussions that can be refined rather than created from scratch.",
     keyMetrics: {
       lighthousePerformance: "92/100",
       accessibility: "98/100",
@@ -1427,7 +1427,7 @@ export const appraisal = {
     },
   },
   conclusion:
-    "Gen AI Appraisal demonstrates how AI can transform traditional HR processes by augmenting human judgment with data-driven insights. By combining flexible form building, role-based access control, and AI-powered feedback generation, the platform addresses the key challenges of performance evaluation: consistency, efficiency, and quality. The project showcases the potential of cloud-native architectures and generative AI to create enterprise applications that are both powerful and user-friendly.",
+    "The AI-Powered Performance Evaluation System demonstrates how AI can transform traditional HR processes by augmenting human judgment with data-driven insights. By combining flexible form building, role-based access control, and AI-powered feedback generation, the platform addresses the key challenges of performance evaluation: consistency, efficiency, and quality. The project showcases the potential of cloud-native architectures and generative AI to create enterprise applications that are both powerful and user-friendly.",
   futureEnhancements: [
     "Integration with additional LLM providers beyond AWS Bedrock for enhanced AI capabilities",
     "Advanced analytics dashboard with predictive insights on employee performance trends",

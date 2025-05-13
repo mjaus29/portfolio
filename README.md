@@ -25,13 +25,12 @@ Welcome to my Modern Developer Portfolio project! This is a minimalist yet moder
 
 ## 📖 Table of Contents
 
-- [Installation](#installation)
-- [Features](#features)
-- [Setup Project](#setup-project)
-- [How to Contribute](#how-to-contribute)
-- [Bug / Feature Request](#bug--feature-request)
-- [Future Enhancements](#future-enhancements)
-- [Acknowledgements](#acknowledgements)
+- [Features](#-features)
+- [Installation](#%EF%B8%8F-setup-project)
+- [How to Contribute](#%EF%B8%8F-how-to-contribute)
+- [Bug / Feature Request](#-bug--feature-request)
+- [Future Enhancements](#-future-enhancements)
+- [Acknowledgements](#-acknowledgements)
 
 ## ✨ Features
 

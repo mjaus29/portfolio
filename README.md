@@ -9,7 +9,9 @@
 
 ## 🌐 Demo
 
-Here is a working live demo: [https://www.markaustria.com/](https://www.markaustria.com/)
+🚀 Here is a working live demo: [https://www.markaustria.com/](https://www.markaustria.com/)
+
+🗒️ Check out the case study here: [https://www.markaustria.com/portfolio](https://www.markaustria.com/portfolio)
 
 ## 📝 Description
 
@@ -48,8 +50,8 @@ To get this project up and running in your development environment, follow these
 
 We need to install or make sure that these tools are pre-installed on your machine:
 
-- [Node.js](https://nodejs.org/en/download/)
 - [Git](https://git-scm.com/downloads)
+- [Node.js](https://nodejs.org/en/download/)
 - [npm](https://docs.npmjs.com/getting-started/installing-node)
 
 ### 🚀 Install Project

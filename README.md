@@ -6,10 +6,9 @@
 [![Portfolio](https://img.shields.io/badge/Portfolio-markaustria.com-darkblue?style=flat&logo=web&logoColor=white)](https://www.markaustria.com/) [![GitHub](https://img.shields.io/badge/GitHub-mjaus29-black?style=flat&logo=github)](https://github.com/mjaus29) [![LinkedIn](https://img.shields.io/badge/LinkedIn-markaustria-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/markaustria/) [![Email](https://img.shields.io/badge/Email-austriamark.mja%40gmail.com-darkred?style=flat&logo=gmail&logoColor=white)](mailto:austriamark.mja@gmail.com)
 </div>
 
+## 🌐 Live Site
 
-## 🌐 Demo
-
-🚀 Here is a working live demo: [https://www.markaustria.com/](https://www.markaustria.com/)
+🚀 Here is a working live site: [https://www.markaustria.com/](https://www.markaustria.com/)
 
 🗒️ Check out the case study here: [https://www.markaustria.com/portfolio](https://www.markaustria.com/portfolio)
 

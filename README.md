@@ -15,11 +15,11 @@ Here is a working live demo: [https://www.markaustria.com/](https://www.markaust
 
 Welcome to my Modern Developer Portfolio project! This is a minimalist yet modern developer portfolio website built using Next.js, featuring animated components, a responsive design, and performance optimization.
 
-**Motivation:** With the increasing competition in the tech industry, developers need portfolios that stand out while effectively showcasing their skills and projects. Traditional portfolios often lack visual appeal and fail to demonstrate the developer's capabilities beyond static displays of work.
+With the increasing competition in the tech industry, developers need portfolios that stand out while effectively showcasing their skills and projects. Traditional portfolios often lack visual appeal and fail to demonstrate the developer's capabilities beyond static displays of work.
 
-**Purpose:** This portfolio solves the challenge of creating something eye-catching and interactive that leaves a lasting impression on potential employers and clients while maintaining excellent performance and accessibility.
+This portfolio solves the challenge of creating something eye-catching and interactive that leaves a lasting impression on potential employers and clients while maintaining excellent performance and accessibility.
 
-**Features:** The project showcases technical skills while providing an engaging user experience through interactive elements and sleek animations.
+The project showcases technical skills while providing an engaging user experience through interactive elements and sleek animations.
 
 **Technologies Used:** Next.js, TypeScript, Tailwind CSS, Framer Motion, Three.js, Sentry, Aceternity UI
 
@@ -48,9 +48,9 @@ To get this project up and running in your development environment, follow these
 
 We need to install or make sure that these tools are pre-installed on your machine:
 
-- [Node.js](https://nodejs.org/en/download/) (v18 or higher recommended)
+- [Node.js](https://nodejs.org/en/download/)
 - [Git](https://git-scm.com/downloads)
-- [npm](https://docs.npmjs.com/getting-started/installing-node) (comes with Node.js)
+- [npm](https://docs.npmjs.com/getting-started/installing-node)
 
 ### 🚀 Install Project
 
@@ -90,15 +90,6 @@ We need to install or make sure that these tools are pre-installed on your machi
    ```bash
    npm run build
    ```
-
-### 🔒 ENV file
-
-Environment variables can be used for configuration. Create a `.env.local` file in the root directory with the following variables:
-
-```
-# Sentry configuration (optional)
-NEXT_PUBLIC_SENTRY_DSN=your_sentry_dsn
-```
 
 ## ⚒️ How to Contribute
 

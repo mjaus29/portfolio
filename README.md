@@ -8,9 +8,9 @@
 
 ## 🌐 Live Site
 
-🚀 Here is a working live site: [https://www.markaustria.com/](https://www.markaustria.com/)
+🚀 Here is a working live site: [markaustria.com](https://www.markaustria.com/)
 
-🗒️ Check out the case study here: [https://www.markaustria.com/portfolio](https://www.markaustria.com/portfolio)
+🗒️ Check out the case study here: [markaustria.com/portfolio](https://www.markaustria.com/portfolio)
 
 ## 📝 Description
 

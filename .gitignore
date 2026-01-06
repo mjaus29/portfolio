@@ -37,3 +37,6 @@ next-env.d.ts
 
 # Sentry Config File
 .env.sentry-build-plugin
+/.idea/copilot.data.migration.agent.xml
+/.idea/copilot.data.migration.ask.xml
+/.idea/copilot.data.migration.edit.xml

@@ -72,6 +72,12 @@ export const gridItems = [
 export const testimonials = [
   {
     quote:
+      "I had the opportunity to work closely with Mark on web-based GenAI projects, and I can confidently say he’s a dependable and supportive teammate. He has a strong focus on backend development and Generative AI, and his solid technical skills consistently show in the thoughtful way he approaches challenges and delivers reliable, effective solutions. Mark would be a valuable addition to any team in need of a reliable and talented developer.",
+    name: "Nicole Alcala",
+    title: "WPH Digital Pte Ltd Singapore",
+  },
+  {
+    quote:
       "Collaborating with Mark was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Mark's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Mark is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
